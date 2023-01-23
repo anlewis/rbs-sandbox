@@ -1,0 +1,9 @@
+module CardGame
+  class Card
+    attr_reader suit: String
+
+    attr_reader rank: String
+
+    def initialize: (String suit, String rank) -> void
+  end
+end
